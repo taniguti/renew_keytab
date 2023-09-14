@@ -1,4 +1,14 @@
-#!/bin/sh
+#!/bin/bash
+
+if [ "$( uname -s )" != "Linux" ]; then
+    echo "Use me on GNU/Linux."
+    exit 1
+fi
+
+if [ "$(whoami)" != root ]; then
+    echo "Use me with sudo."
+    exit 1
+fi
 
 HN="$(hostname)"
 echo "kinit administrator"
