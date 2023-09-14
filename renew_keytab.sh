@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ "$( uname -s )" != "Linux" ]; then
+if [ "$(uname -s)" != "Linux" ]; then
     echo "Use me on GNU/Linux."
     exit 1
 fi
