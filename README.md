@@ -1,6 +1,6 @@
 renew_keytab
 ============
-Active Directory KDCを利用しているLinuxで、keytab ふぁいるのKVNOがKDCとずれてしまった時に修正するスクリプト。
+Active Directory KDCを利用しているLinuxで、keytabのKVNOがKDCとずれてしまった時に修正するスクリプト。
 
 Bugs
 ============
